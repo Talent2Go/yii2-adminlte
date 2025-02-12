@@ -19,7 +19,7 @@ class Asset extends \yii\web\AssetBundle
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        'yii\bootstrap5\BootstrapPluginAsset',
         'rmrevin\yii\fontawesome\AssetBundle',
     ];
 }
