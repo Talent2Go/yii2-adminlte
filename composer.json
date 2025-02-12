@@ -31,12 +31,23 @@
     "yiisoft/yii2": ">=2.0.5",
     "yiisoft/yii2-bootstrap5": "*",
     "rmrevin/yii2-fontawesome": "2.12.*",
-    "almasaeed2010/adminlte": "~2.0",
+    "almasaeed2010/adminlte": "v4.0.0-beta3",
     "bower-asset/datatables": "*"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "yiister\\adminlte\\": ""
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true
     }
   }
 }
