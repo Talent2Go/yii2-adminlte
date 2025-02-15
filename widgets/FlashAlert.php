@@ -10,7 +10,7 @@ namespace yiister\adminlte\widgets;
 use rmrevin\yii\fontawesome\component\Icon;
 use Yii;
 use yii\base\Widget;
-use yii\bootstrap5\Alert;
+use yii\bootstrap4\Alert;
 use yii\helpers\Html;
 
 class FlashAlert extends Widget
